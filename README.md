@@ -1,6 +1,6 @@
-# Cart Frontend
+# Alex's Website
 
-A single-page React application to render the cart page.
+A single-page React application to render some fun things.
 
 ## Getting started
 1. Make sure you have Node 6+ installed.
@@ -16,4 +16,4 @@ you can't for now. Just kidding. Now you can.
 1. Run `npm run test`
 
 ## Building for Production
-1. Run `npm run build`. This will bundle the app and place it in `/dist/cart.js`
+1. Run `npm run build`. This will bundle the app and place it in `/dist/app.js`
