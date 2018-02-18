@@ -1,16 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import Header from './components/header/Header';
 import './Homepage.scss';
 
 const Homepage = () => (
   <div className="homepage">
     <Header />
-
-    <Link to="/about">
-      <button>About this site</button>
-    </Link>
+    <div className="page">
+      <p>This is the part where the page goes.</p>
+    </div>
   </div>
 );
 

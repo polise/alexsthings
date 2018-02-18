@@ -1,10 +1,31 @@
+@import '../../Base.scss';
+
 .header {
   width: 100%;
-  padding: 20px;
-  background-color: pink;
-  margin-bottom: 20px;
+  padding: $space-medium $space-medium 0 $space-medium;
+  margin-bottom: $space-medium;
+  background-color: $pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    color: $black;
+    margin: 0 auto;
+    padding: $space-medium;
+    border: 2px solid $black;
+  }
+
+  &__sections {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 }
 
-h2 {
-  font-style: italic;
+.section {
+  font-size: 20px;
+  padding: $space-small;
+  margin: 0 $space-small;
 }

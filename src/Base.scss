@@ -1,0 +1,57 @@
+$break-small: 450px;
+$break-large: 1200px;
+
+$space-small: 10px;
+$space-medium: 20px;
+
+$black: #332D32;
+$super-black: #191118;
+
+$pink: #D668B5;
+$pink-darker: #A01175;
+$pink-darkest: #5E0352;
+
+h1 {
+  margin: 0;
+  color: $black;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1.5em;
+  }
+}
+
+h2 {
+  margin: 0;
+  font-style: italic;
+  color: $black;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1.25em;
+  }
+
+  @media screen and (min-width: $break-large) {
+    font-size: 1.75em;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+
+  &:hover {
+    color: $super-black;
+  }
+}
+
+
+p {
+  color: $black;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 1.25em;
+  }
+}
+
+.page {
+  padding: $space-medium;
+}
