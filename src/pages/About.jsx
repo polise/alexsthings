@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './components/header/Header';
+import Header from '../components/header/Header';
 
 const About = () => (
-  <div className="about">
+  <div className="about top-level">
     <Header />
     <div className="page">
       <h1>About this:</h1>

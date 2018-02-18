@@ -20,6 +20,16 @@ const Header = () => (
           about this site
         </Link>
       </div>
+      <div className="section">
+        <Link to="/me">
+          about moi
+        </Link>
+      </div>
+      <div className="section">
+        <Link to="/quotes">
+          quotes
+        </Link>
+      </div>
     </div>
   </div>
 );
